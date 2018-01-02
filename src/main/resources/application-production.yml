@@ -1,0 +1,42 @@
+spring.profiles.include: mandatoryData
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_PORT_5432_TCP_ADDR}:${POSTGRES_PORT_5432_TCP_PORT}/${DATABASE}
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
+    test-while-idle: true
+    test-on-borrow: true
+    validation-query: SELECT 1
+
+shuttle:
+  tokens.access_token.expiration.period: 240d
+
+  host: "https://yuor.shuttle.production.host"
+  app-id:
+    ios: "Bundle-Id-For-Your-iOS-Shuttle-App"
+    android: "Bundle-Id-For-Your-Android-Shuttle-App"
+  mailgun:
+    domain: "Your-Mailgun-Domain"
+    key: "Your-Mailgun-Key"
+  fcm:
+    url: "https://fcm.googleapis.com/fcm/send"
+    key: "Your-FCM-Key"
+  should-send-notification-of-new-user: true
+  assets:
+    avatars.default:
+      - "http://default-avatars-for-production-env/1.png"
+      - "http://default-avatars-for-production-env/2.png"
+      - "http://default-avatars-for-production-env/3.png"
+      - "http://default-avatars-for-production-env/4.png"
+      - "http://default-avatars-for-production-env/5.png"
+      - "http://default-avatars-for-production-env/6.png"
+      - "http://default-avatars-for-production-env/7.png"
+      - "http://default-avatars-for-production-env/8.png"
+      - "http://default-avatars-for-production-env/9.png"
+
+aws.s3:
+  region: "eu-west-1"
+  bucket-name: "Your-Bucket-Name"
+  access-key: "Your-Access-Key"
+  secret-access-key: "Your-Secret-Access-Key"

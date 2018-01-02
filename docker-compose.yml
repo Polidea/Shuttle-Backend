@@ -1,0 +1,15 @@
+# This Docker Compose configuration is for development use only.
+# We do not use it on testing nor production environment.
+
+shuttle:
+  build: .
+  links:
+    - postgres
+  ports:
+    - 9090:8080
+  env_file: .env
+
+postgres:
+  image: postgres:9.4.1
+  ports:
+      - 5432:5432

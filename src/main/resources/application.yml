@@ -1,0 +1,65 @@
+spring.profiles.active: development
+
+# http://docs.spring.io/spring-boot/docs/1.5.x-SNAPSHOT/reference/htmlsingle/#production-ready-sensitive-endpoints
+management.security.enabled: false
+
+server.port: 8080
+
+spring:
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: validate
+  http:
+    multipart:
+      enabled: true
+      # We set max allowed avatar size to 10 MB and we provide our custom validation of avatar size.
+      # Therefore we have to set Spring thresholds high enough to lower chances that Spring's
+      # validation will be triggered.
+      file-size-threshold: 10MB
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+flyway:
+  # You can read more about migration parameters on these pages:
+  #   https://flywaydb.org/documentation/gradle/migrate
+  #   http://docs.spring.io/spring-boot/docs/1.4.0.RELEASE/reference/htmlsingle/#appendix
+  enabled: true
+  encoding: "UTF-8"
+  check-location: true
+  locations: "classpath:db/migration"
+  sql-migration-prefix: "V"
+  sql-migration-separator: "__"
+  sql-migration-suffix: ".sql"
+  validate-on-migrate: true
+  # Do not dare to set this property to true... it can end up with clean database on production
+  clean-on-validation-error: false
+
+logging:
+  level:
+    root: info
+    com.polidea.shuttle: debug
+    # Enable HTTP requests logging with headers, payload etc.
+    org.apache.coyote.http11: debug
+
+shuttle:
+  tokens:
+    continuous-deployment: "continuous_deployment_token"
+    access_token.expiration.period: 1d
+
+  google:
+    project.client.id: "Your Google Client Id"
+  qrcode:
+    width: 250
+    height: 250
+  notifications:
+    push-tokens-limit: 300
+    android:
+      icon-resource-name: "app_logo_status_bar"
+  project:
+    name: "Shuttle"
+
+aws.s3:
+  base-url: "https://s3-${aws.s3.region}.amazonaws.com/${aws.s3.bucket-name}"
+  base-paths:
+    avatars.uploaded: "avatars/uploaded"

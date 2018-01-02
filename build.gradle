@@ -1,0 +1,109 @@
+buildscript {
+    ext {
+        springBootVersion = '1.5.4.RELEASE'
+        groovyVersion = '2.4.6'
+    }
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+        // for Amazon AWS S3
+        classpath "io.spring.gradle:dependency-management-plugin:0.5.4.RELEASE"
+    }
+}
+
+apply {
+    plugin 'java'
+    plugin 'groovy'
+    plugin 'idea'
+    plugin 'org.springframework.boot'
+    plugin 'io.spring.dependency-management'
+}
+
+dependencyManagement {
+    imports {
+        // for Amazon AWS S3
+        mavenBom 'com.amazonaws:aws-java-sdk-bom:1.10.47'
+    }
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+bootRun {
+    systemProperties = System.properties
+}
+
+bootRun {
+    addResources = true
+}
+
+jar {
+    baseName = 'shuttle'
+    version = '0.23.2'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.12'
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+
+    compile "org.codehaus.groovy:groovy:${groovyVersion}"
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-devtools', version: "${springBootVersion}"
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: "${springBootVersion}"
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: "${springBootVersion}"
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: "${springBootVersion}"
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: "${springBootVersion}"
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: "${springBootVersion}"
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: "${springBootVersion}"
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: "${springBootVersion}"
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-mustache', version: "${springBootVersion}"
+
+    compile group: 'org.flywaydb', name: 'flyway-core', version: '4.0.3'
+    compile 'ru.yandex.qatools.embed:postgresql-embedded:1.15'
+    compile "postgresql:postgresql:9.1-901-1.jdbc4"
+
+    compile "com.google.api-client:google-api-client:1.21.0"
+    compile "com.github.kenglxn.QRGen:javase:2.0.0"
+
+    // Guava
+    compile group: 'com.google.guava', name: 'guava', version: '19.0'
+
+    //mailgun
+    compile group: 'com.sun.jersey', name: 'jersey-client', version: '1.18.1'
+    compile group: 'com.sun.jersey', name: 'jersey-core', version: '1.18.1'
+    compile group: 'com.sun.jersey.contribs', name: 'jersey-multipart', version: '1.18.1'
+
+    compile group: 'commons-lang', name: 'commons-lang', version: '2.3'
+    compile group: 'commons-io', name: 'commons-io', version: '2.5'
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.10'
+
+    // Amazon AWS S3
+    compile 'com.amazonaws:aws-java-sdk-s3'
+
+    // HTTP communication
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: "${springBootVersion}"
+    testCompile group: 'org.spockframework', name: 'spock-spring', version: '1.1-groovy-2.4-rc-2'
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.1-groovy-2.4-rc-2'
+    testCompile "com.jayway.jsonpath:json-path:2.2.0"
+    testCompile "cglib:cglib:3.2.2"
+    testCompile "org.codehaus.groovy:groovy:2.4.6"
+    testCompile "org.springframework.security:spring-security-test:4.1.1.RELEASE"
+}
+

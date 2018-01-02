@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+
+    <title>Shuttle</title>
+
+    <style>
+
+        /*
+         * CSS RESET
+         */
+
+        /* http://meyerweb.com/eric/tools/css/reset/
+           v2.0 | 20110126
+           License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+            quotes: none;
+        }
+
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+    </style>
+
+    <style>
+
+        /*
+         * LANDING PAGE STYLING
+         */
+
+        .landing-page {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .landing-page__content {
+            width: 600px;
+            margin-top: 1em;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            margin-top: 0;
+            margin-bottom: 1em;
+        }
+
+        .header__image {
+            width: 100%;
+        }
+
+        .message {
+            margin: 2em 2em;
+            line-height: 1.7em;
+
+            color: #585858;
+        }
+
+        .message__inline-link {
+            text-decoration: none;
+            color: #1d9fd9;
+        }
+
+        .download {
+            margin: 0 2em;
+        }
+
+        .download__platform {
+            width: 50%;
+            float: left;
+        }
+
+        .download-platform {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .download-platform__element {
+            align-self: center;
+        }
+
+        .download-button {
+            display: inline-block;
+
+            width: 170px;
+            margin-top: 1em;
+            margin-bottom: 1em;
+
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+            background-color: #1d9fd9;
+
+            border: 2px solid #1d9fd9;
+            border-radius: 5px;
+
+            padding: 0.5em 0.5em;
+        }
+
+        .download-qr-code {
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        .footer {
+            margin-top: 2em;
+            margin-bottom: 1em;
+            padding: 1em 2em;
+
+            border-top: solid 1px #bababa;
+            border-bottom: solid 1px #bababa;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .footer-link {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .footer-link__image {
+            height: 30px;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            .landing-page__content {
+                width: 100%;
+                margin: 0;
+            }
+
+            .download__platform {
+                width: 100%;
+            }
+
+        }
+
+    </style>
+
+</head>
+<body class="landing-page">
+
+<div class="landing-page__content content">
+    <header class="header">
+        <img class="header__image" src="data:image/png;base64,{{header_image_base64}}">
+    </header>
+    <section class="message">
+        <p>
+            Hello!
+        </p>
+        <p>
+            In order to install Shuttle app on your mobile click the
+            installation links below or scan the QR codes.
+            If you don't have a QR code scanner yet, we recommend
+            <a class="message__inline-link"
+               href="https://itunes.apple.com/pl/app/qrafter-qr-code-barcode-reader/id416098700?mt=8">
+                QRafter
+            </a>
+            for iOS and
+            <a class="message__inline-link"
+               href="https://play.google.com/store/apps/details?id=com.google.zxing.client.android&hl=en">
+                Barcode Scanner
+            </a>
+            for Android.
+        </p>
+    </section>
+    <section class="download">
+        <div class="download__platform download-platform">
+            <div class="download-platform__element">
+                <a class="download-button" href="{{ios_url}}">
+                    GET iOS App
+                </a>
+            </div>
+            <div class="download-platform__element">
+                <img class="download-qr-code" src="data:image/png;base64,{{ios_qr_code_base64}}">
+            </div>
+        </div>
+        <div class="download__platform download-platform">
+            <div class="download-platform__element">
+                <a class="download-button" href="{{android_url}}">
+                    GET Android App
+                </a>
+            </div>
+            <div class="download-platform__element">
+                <img class="download-qr-code" src="data:image/png;base64,{{android_qr_code_base64}}">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <a class="footer-link" href="//www.polidea.com">
+                <img class="footer-link__image" src="data:image/png;base64,{{polidea_logo_base64}}">
+            </a>
+        </div>
+        <div>
+            <a class="footer-link" href="//www.facebook.com/Polidea.Software">
+                <img class="footer-link__image" src="data:image/png;base64,{{facebook_icon_base64}}">
+            </a>
+            <a class="footer-link" href="//twitter.com/polidea">
+                <img class="footer-link__image" src="data:image/png;base64,{{twitter_icon_base64}}">
+            </a>
+            <a class="footer-link" href="//github.com/Polidea">
+                <img class="footer-link__image" src="data:image/png;base64,{{github_icon_base64}}">
+            </a>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

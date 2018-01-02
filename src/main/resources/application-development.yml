@@ -1,0 +1,31 @@
+spring.profiles.include: embeddedPostgres,mandatoryData,developmentData
+
+shuttle:
+  host: "http://localhost:${server.port}"
+  app-id:
+    ios: "Bundle-Id-For-Your-iOS-Shuttle-App"
+    android: "Bundle-Id-For-Your-Android-Shuttle-App"
+  mailgun:
+    domain: "Your-Mailgun-Domain"
+    key: "Your-Mailgun-Key"
+  fcm:
+    url: "https://fcm.googleapis.com/fcm/send"
+    key: "Your-FCM-Key"
+  should-send-notification-of-new-user: false
+  assets:
+    avatars.default:
+      - "http://default-avatars-for-development-env/1.png"
+      - "http://default-avatars-for-development-env/2.png"
+      - "http://default-avatars-for-development-env/3.png"
+      - "http://default-avatars-for-development-env/4.png"
+      - "http://default-avatars-for-development-env/5.png"
+      - "http://default-avatars-for-development-env/6.png"
+      - "http://default-avatars-for-development-env/7.png"
+      - "http://default-avatars-for-development-env/8.png"
+      - "http://default-avatars-for-development-env/9.png"
+
+aws.s3:
+  region: "eu-west-1"
+  bucket-name: "Your-Bucket-Name"
+  access-key: "Your-Access-Key"
+  secret-access-key: "Your-Secret-Access-Key"

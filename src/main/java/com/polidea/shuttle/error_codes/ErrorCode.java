@@ -1,0 +1,32 @@
+package com.polidea.shuttle.error_codes;
+
+public enum ErrorCode {
+
+    NOT_DEFINED(null),
+
+    INVALID_REFRESH_TOKEN(2000),
+    USER_NOT_FOUND(2001),
+    INVALID_VERIFICATION_CODE(2002),
+    PROJECT_NOT_FOUND(2003),
+    APP_NOT_FOUND(2004),
+    BUILD_NOT_FOUND(2005),
+    INVALID_ACCESS_TOKEN(2006),
+    BUILD_ALREADY_EXISTS(2007),
+    INVALID_GOOGLE_TOKEN(2008),
+    USER_ALREADY_EXISTS(2009),
+    ACCESS_TOKEN_NOT_PROVIDED(2010),
+    APP_NOT_FOUND_IN_PROJECT(2011),
+    APP_ALREADY_EXISTS(2015),
+    UPLOAD_TO_EXTERNAL_STORAGE_FAILED(2017),
+    AVATAR_SIZE_TOO_BIG(2018),
+    AVATAR_IS_EMPTY(2019),
+    UNKNOWN_DEVICE_ID(2020),
+    TOO_MANY_PUSH_TOKENS(2021);
+
+    public final Integer value;
+
+    ErrorCode(Integer value) {
+        this.value = value;
+    }
+
+}

@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ArraysAsListWithZeroOrOneArgument" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AssertMessageNotString" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="BlockMarkerComments" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ChangeToOperator" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ControlFlowStatementWithoutBraces" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="Convert2MethodRef" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Duplicates" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GrMethodMayBeStatic" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GroovyPointlessBoolean" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoreObjectMethods" value="true" />
+      <option name="ignoreAnonymousClassMethods" value="false" />
+    </inspection_tool>
+    <inspection_tool class="PointlessBooleanExpression" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="m_ignoreExpressionsContainingConstants" value="true" />
+    </inspection_tool>
+    <inspection_tool class="RawUseOfParameterizedType" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SimplifiableIfStatement" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

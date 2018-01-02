@@ -1,0 +1,1231 @@
+{
+	"id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+	"name": "Shuttle: Mobile Client",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "7d7bf7f0-2393-9e80-9a48-cf33d1ee1d70",
+			"name": "apps",
+			"description": "",
+			"order": [
+				"abf4f6e4-7664-c754-4e1c-d6403a6230d2",
+				"cf743756-7a06-b37b-d542-63bdfcc64e34",
+				"6797d4a2-75d0-b79e-25e7-57544d7b0d28",
+				"f22f1261-5ad9-a824-bad8-ed4caf9f3932"
+			],
+			"folders_order": [],
+			"owner": "1918582",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967"
+		},
+		{
+			"id": "fa499ecc-a642-fd18-fe58-67f37ee02ac5",
+			"name": "authentication",
+			"description": "",
+			"order": [
+				"2be24d65-3c1d-9b55-67a2-edbc9117aea0",
+				"f289bb4d-6884-03a6-89c8-1f00896202f0",
+				"a02e3ef2-2519-61bb-2814-97f1b083b098",
+				"68003a01-1292-977a-056e-c16f96273153",
+				"b842fcef-1f81-5600-d066-f8b7812e9c9c"
+			],
+			"folders_order": [],
+			"owner": "1918582",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967"
+		},
+		{
+			"id": "0f3b2a93-f1ac-9a1f-ba30-a040d7226cfb",
+			"name": "avatars",
+			"description": "",
+			"order": [
+				"7ad99ff2-be84-57c2-ef36-7060804e98ed"
+			],
+			"folders_order": [],
+			"owner": "1918582",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967"
+		},
+		{
+			"id": "a6a6ef91-794d-72c3-87ca-4fd01d044d0b",
+			"name": "blog posts",
+			"description": "",
+			"order": [
+				"4f76d133-84a7-98ff-c644-401d85b1b7e2"
+			],
+			"folders_order": [],
+			"owner": "1918582",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967"
+		},
+		{
+			"id": "52cb8a53-6b97-2b27-3bd3-cb71d7b7802f",
+			"name": "builds",
+			"description": "",
+			"order": [
+				"b0da39eb-68a6-bd09-206d-457dbeb9656f",
+				"d090060d-f8ab-45aa-1a5f-917a110156a1",
+				"0b251b46-a47e-855d-d26c-46977f1155ea",
+				"cf1ecf9e-8bf0-e39f-608c-730a3b694b7c",
+				"c55791f5-c122-7e69-0f4a-758249525b8f",
+				"b117ccde-2d21-43c0-2801-6917757ddb0c"
+			],
+			"folders_order": [],
+			"owner": "1918582",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967"
+		},
+		{
+			"id": "1a5f5d9b-c73d-1f6c-90c3-9df1e9983a9c",
+			"name": "notifications",
+			"description": "",
+			"order": [
+				"c4d0cf7f-1084-8735-a65b-8e8be30185c2",
+				"2f07b8e1-1d95-4114-d9b7-f33215f463e2"
+			],
+			"folders_order": [],
+			"owner": "1918582",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967"
+		},
+		{
+			"id": "e2ad9233-dd58-9a4b-d4a7-4a01ca0c12ce",
+			"name": "profile",
+			"description": "",
+			"order": [
+				"cd31da07-0b22-6d8c-5d85-11deb9393ebd",
+				"a295dbf7-6c69-10c2-296b-cfb507a51051",
+				"30415376-9e63-d818-d141-e977b7bc8303"
+			],
+			"folders_order": [],
+			"owner": "1918582",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967"
+		},
+		{
+			"id": "7c66e4a1-3fd7-5527-f9f7-be6c4c1d4a45",
+			"name": "projects",
+			"description": "",
+			"order": [
+				"59cb892a-a336-5ba5-af6f-aeeebe678bda",
+				"352694c3-dd84-f424-4c31-27ad1f4ebbc6",
+				"8744d2a6-3195-a541-8e3e-5182884515bf",
+				"50e7e2a4-adf2-e4d4-d7b1-232dfe467a40",
+				"b01390c7-a251-9abb-48e4-649a28c548e8",
+				"7db0a7a1-fa6f-2dc6-2cbe-4289b215f1a1"
+			],
+			"folders_order": [],
+			"owner": "1918582",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967"
+		},
+		{
+			"id": "10e104da-80b9-109c-b599-a20824b7090e",
+			"name": "shuttle",
+			"description": "",
+			"order": [
+				"6cac161c-c2cf-578a-fa72-77f65c50574f",
+				"a0b025fc-10af-281a-0d21-8a305d40a4a0"
+			],
+			"folders_order": [],
+			"owner": "1918582",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967"
+		},
+		{
+			"id": "e535c42b-dbc0-4ea8-2153-43b292d54e4d",
+			"name": "widget",
+			"description": "",
+			"order": [
+				"ab642a5c-5525-0e52-d689-61a9c3a8b3da",
+				"024d0fc8-9eef-c9e1-6f39-a814bac73b71"
+			],
+			"folders_order": [],
+			"owner": "1918582",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967"
+		}
+	],
+	"folders_order": [
+		"7d7bf7f0-2393-9e80-9a48-cf33d1ee1d70",
+		"fa499ecc-a642-fd18-fe58-67f37ee02ac5",
+		"0f3b2a93-f1ac-9a1f-ba30-a040d7226cfb",
+		"a6a6ef91-794d-72c3-87ca-4fd01d044d0b",
+		"52cb8a53-6b97-2b27-3bd3-cb71d7b7802f",
+		"1a5f5d9b-c73d-1f6c-90c3-9df1e9983a9c",
+		"e2ad9233-dd58-9a4b-d4a7-4a01ca0c12ce",
+		"7c66e4a1-3fd7-5527-f9f7-be6c4c1d4a45",
+		"10e104da-80b9-109c-b599-a20824b7090e",
+		"e535c42b-dbc0-4ea8-2153-43b292d54e4d"
+	],
+	"timestamp": 0,
+	"owner": "1918582",
+	"public": false,
+	"requests": [
+		{
+			"id": "024d0fc8-9eef-c9e1-6f39-a814bac73b71",
+			"name": "Widget: get iOS Apps by release date",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "GET",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/apps/android/by-release-date",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "e535c42b-dbc0-4ea8-2153-43b292d54e4d"
+		},
+		{
+			"id": "0b251b46-a47e-855d-d26c-46977f1155ea",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/apps/ios/eu.testapp/builds/test1/favorite",
+			"folder": "52cb8a53-6b97-2b27-3bd3-cb71d7b7802f",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353407290,
+			"name": "Builds: favorite",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "2be24d65-3c1d-9b55-67a2-edbc9117aea0",
+			"headers": "Content-Type: application/json\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/auth/code/claim",
+			"folder": "fa499ecc-a642-fd18-fe58-67f37ee02ac5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353293767,
+			"name": "Authentication: sign-in (claim code)",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": "{\n  \"deviceId\": \"qwer\",\n  \"email\": \"member@your-shuttle.com\"\n}"
+		},
+		{
+			"id": "2f07b8e1-1d95-4114-d9b7-f33215f463e2",
+			"name": "Notifications: register APNS Token for iOS",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "POST",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nContent-Type: application/json\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"token\": \"cLxb4t-1J4U:APA91bF5yHEqPpwHPe6noa-VyOfy92AB4KxillxAVpNvl6d3A32pUv63Vm3rGSZNnfqrpvkPBAxUnznofkH-v8CzafsQHo7TwPdL1LaEIBF7-98yUYDPZQn--4GDscHVhuF0HYv3XWRo\"\n}",
+			"url": "{{HOST}}/pushtokens/ios",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "1a5f5d9b-c73d-1f6c-90c3-9df1e9983a9c"
+		},
+		{
+			"id": "30415376-9e63-d818-d141-e977b7bc8303",
+			"name": "Profile: upload avatar",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "POST",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "avatarImage",
+					"type": "file",
+					"value": ""
+				}
+			],
+			"rawModeData": "",
+			"url": "{{HOST}}/profile/avatar",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "e2ad9233-dd58-9a4b-d4a7-4a01ca0c12ce"
+		},
+		{
+			"id": "352694c3-dd84-f424-4c31-27ad1f4ebbc6",
+			"name": "Projects: get archived",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "GET",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/projects/archived",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "7c66e4a1-3fd7-5527-f9f7-be6c4c1d4a45"
+		},
+		{
+			"id": "4f76d133-84a7-98ff-c644-401d85b1b7e2",
+			"name": "Blog: posts",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "GET",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nContent-Type: application/json\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"token\": \"some_apns_token\"\n}",
+			"url": "{{HOST}}/posts",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "a6a6ef91-794d-72c3-87ca-4fd01d044d0b"
+		},
+		{
+			"id": "50e7e2a4-adf2-e4d4-d7b1-232dfe467a40",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/mute",
+			"folder": "7c66e4a1-3fd7-5527-f9f7-be6c4c1d4a45",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353573689,
+			"name": "Projects: unmute",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "59cb892a-a336-5ba5-af6f-aeeebe678bda",
+			"name": "Projects: get",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "GET",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/projects",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "7c66e4a1-3fd7-5527-f9f7-be6c4c1d4a45"
+		},
+		{
+			"id": "6797d4a2-75d0-b79e-25e7-57544d7b0d28",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/apps/android/eu.testapp/mute",
+			"folder": "7d7bf7f0-2393-9e80-9a48-cf33d1ee1d70",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353254662,
+			"name": "Apps: mute",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "68003a01-1292-977a-056e-c16f96273153",
+			"headers": "Content-Type: application/json\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/auth/redirect?email=member@your-shuttle.com&code=KUVFWG",
+			"folder": "fa499ecc-a642-fd18-fe58-67f37ee02ac5",
+			"queryParams": [
+				{
+					"key": "email",
+					"value": "member@your-shuttle.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "code",
+					"value": "KUVFWG",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353325042,
+			"name": "Authentication: redirect (mail button)",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": "{\n  \"deviceId\": \"dsgaguihsdfh212hfoiwE\",\n  \"email\": \"someone@your-shuttle.com\",\n  \"code\": \"KUVFWG\"\n}"
+		},
+		{
+			"id": "6cac161c-c2cf-578a-fa72-77f65c50574f",
+			"name": "latest Android Shuttle",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "GET",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/shuttle/android",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "10e104da-80b9-109c-b599-a20824b7090e"
+		},
+		{
+			"id": "7ad99ff2-be84-57c2-ef36-7060804e98ed",
+			"name": "Avatars: get",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "GET",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/avatars",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "0f3b2a93-f1ac-9a1f-ba30-a040d7226cfb"
+		},
+		{
+			"id": "7db0a7a1-fa6f-2dc6-2cbe-4289b215f1a1",
+			"name": "Projects: unarchive",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "POST",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/projects/7/unarchive",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "7c66e4a1-3fd7-5527-f9f7-be6c4c1d4a45"
+		},
+		{
+			"id": "8744d2a6-3195-a541-8e3e-5182884515bf",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/mute",
+			"folder": "7c66e4a1-3fd7-5527-f9f7-be6c4c1d4a45",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353570776,
+			"name": "Projects: mute",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "a02e3ef2-2519-61bb-2814-97f1b083b098",
+			"name": "Authentication: sign-out (delete token)",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "DELETE",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/auth/token",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "fa499ecc-a642-fd18-fe58-67f37ee02ac5"
+		},
+		{
+			"id": "a0b025fc-10af-281a-0d21-8a305d40a4a0",
+			"name": "latest iOS Shuttle",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "GET",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/shuttle/ios",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "10e104da-80b9-109c-b599-a20824b7090e"
+		},
+		{
+			"id": "a295dbf7-6c69-10c2-296b-cfb507a51051",
+			"name": "Profile: update",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "PATCH",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nContent-Type: application/json\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"name\": \"Updated Name\",\n\t\"avatarHref\": \"updated_avatar_href\"\n}",
+			"url": "{{HOST}}/profile",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "e2ad9233-dd58-9a4b-d4a7-4a01ca0c12ce"
+		},
+		{
+			"id": "ab642a5c-5525-0e52-d689-61a9c3a8b3da",
+			"name": "Widget: get Android Apps by release date",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "GET",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/apps/android/by-release-date",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "e535c42b-dbc0-4ea8-2153-43b292d54e4d"
+		},
+		{
+			"id": "abf4f6e4-7664-c754-4e1c-d6403a6230d2",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/apps/android",
+			"folder": "7d7bf7f0-2393-9e80-9a48-cf33d1ee1d70",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353230980,
+			"name": "Apps: get Android",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "b01390c7-a251-9abb-48e4-649a28c548e8",
+			"name": "Projects: archive",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "POST",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/projects/7/archive",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "7c66e4a1-3fd7-5527-f9f7-be6c4c1d4a45"
+		},
+		{
+			"id": "b0da39eb-68a6-bd09-206d-457dbeb9656f",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/apps/android/eu.testapp/builds",
+			"folder": "52cb8a53-6b97-2b27-3bd3-cb71d7b7802f",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353363628,
+			"name": "Builds: get Android",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "b117ccde-2d21-43c0-2801-6917757ddb0c",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/apps/ios/eu.testapp/builds/test1/publish",
+			"folder": "52cb8a53-6b97-2b27-3bd3-cb71d7b7802f",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353467107,
+			"name": "Builds: unpublish",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "b842fcef-1f81-5600-d066-f8b7812e9c9c",
+			"name": "Authentication: refresh token",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "POST",
+			"headers": "Content-Type: application/json\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"refreshToken\": \"asdasda\"\n}",
+			"url": "{{HOST}}/auth/refresh-token",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "fa499ecc-a642-fd18-fe58-67f37ee02ac5"
+		},
+		{
+			"id": "c4d0cf7f-1084-8735-a65b-8e8be30185c2",
+			"name": "Notifications: register GCM Token for Android",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "POST",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nContent-Type: application/json\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"token\": \"cwtdZInTWoA:APA91bGw0eeiohySiseb8aYJNsHePuGCqCXN11FK-043c1SEaqC-G1JoLPKl4_ouaBK0c8SvBHGSdTXcW-c4POEKAyZwirkViC7B3CvaerjgKQUO96EaDYhklQm5vlQecvl06BF3muRD\"\n}",
+			"url": "{{HOST}}/pushtokens/android",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "1a5f5d9b-c73d-1f6c-90c3-9df1e9983a9c"
+		},
+		{
+			"id": "c55791f5-c122-7e69-0f4a-758249525b8f",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/apps/ios/eu.testapp/builds/test1/publish",
+			"folder": "52cb8a53-6b97-2b27-3bd3-cb71d7b7802f",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353457532,
+			"name": "Builds: publish",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "cd31da07-0b22-6d8c-5d85-11deb9393ebd",
+			"name": "Profile: get",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"method": "GET",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{HOST}}/profile",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"description": "",
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}"
+				},
+				{
+					"description": "",
+					"key": "Origin",
+					"value": "{{HOST}}"
+				}
+			],
+			"collection_id": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"folder": "e2ad9233-dd58-9a4b-d4a7-4a01ca0c12ce"
+		},
+		{
+			"id": "cf1ecf9e-8bf0-e39f-608c-730a3b694b7c",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/apps/ios/eu.testapp/builds/test1/favorite",
+			"folder": "52cb8a53-6b97-2b27-3bd3-cb71d7b7802f",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353422083,
+			"name": "Builds: unfavorite",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "cf743756-7a06-b37b-d542-63bdfcc64e34",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/apps/ios",
+			"folder": "7d7bf7f0-2393-9e80-9a48-cf33d1ee1d70",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353237404,
+			"name": "Apps: get iOS",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "d090060d-f8ab-45aa-1a5f-917a110156a1",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/apps/ios/eu.testapp/builds",
+			"folder": "52cb8a53-6b97-2b27-3bd3-cb71d7b7802f",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353375813,
+			"name": "Builds: get iOS",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "f22f1261-5ad9-a824-bad8-ed4caf9f3932",
+			"headers": "Access-Token: {{SHUTTLE_ACCESS_TOKEN}}\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Access-Token",
+					"value": "{{SHUTTLE_ACCESS_TOKEN}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/projects/2/apps/android/eu.testapp/mute",
+			"folder": "7d7bf7f0-2393-9e80-9a48-cf33d1ee1d70",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353273955,
+			"name": "Apps: unmute",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "f289bb4d-6884-03a6-89c8-1f00896202f0",
+			"headers": "Content-Type: application/json\nOrigin: {{HOST}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Origin",
+					"value": "{{HOST}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{HOST}}/auth/token/claim",
+			"folder": "fa499ecc-a642-fd18-fe58-67f37ee02ac5",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var body = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"SHUTTLE_ACCESS_TOKEN\",  body.accessToken);",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513353306164,
+			"name": "Authentication: sign-in (claim token)",
+			"description": "",
+			"collectionId": "3e70e066-ffc4-121f-1295-354a0d5a7967",
+			"responses": [],
+			"rawModeData": "{\n  \"deviceId\": \"qwer\",\n  \"email\": \"member@your-shuttle.com\",\n  \"code\": \"ERXAF\"\n}"
+		}
+	]
+}

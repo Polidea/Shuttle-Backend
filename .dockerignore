@@ -1,0 +1,30 @@
+# This file is very tricky and it's not obvious that some patterns may work
+# not as expected. Follow these simple rules and you will live in peace:
+#
+# 1. Do not use entries starting with "/", because they will be omitted.
+#    For example `/.idea/` is invalid and in result `.idea` will be copied
+#    into container.
+#
+# 2. Do not expect `build/` to match all `build` dirs recursively (as it
+#    would happen in .gitignore). `build/` matches to top-level `build` only
+#    and you have to provide nested `build` dirs separately.
+
+# Git
+.git/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+
+# macOS
+.DS_Store
+
+# things not needed in the Docker container
+android-qr-code.png
+api-documentation/
+docker-compose.yml
+ios-qr-code.png
+tmp/

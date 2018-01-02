@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <style type="text/css">
+
+        /* -------------------------------------
+            GLOBAL
+            A very basic CSS reset
+        ------------------------------------- */
+
+        * {
+            margin: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: none;
+            width: 100% !important;
+            height: 100%;
+            line-height: 1.6;
+        }
+
+        /* Let's make sure all tables have defaults */
+        table td {
+            vertical-align: top;
+        }
+
+        /* -------------------------------------
+            BODY & CONTAINER
+        ------------------------------------- */
+
+        body {
+            background-color: #ffffff;
+        }
+
+        .body-wrap {
+            width: 100%;
+        }
+
+        .container {
+            display: block !important;
+            max-width: 600px !important;
+            margin: 0 auto !important;
+            /* makes it centered */
+            clear: both !important;
+            padding: 0 !important;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        /* -------------------------------------
+            HEADER, FOOTER, MAIN
+        ------------------------------------- */
+
+        .header {
+            width: 100%;
+        }
+
+        .message-wrapper {
+            width: 100%;
+            height: 300px !important;
+            vertical-align: middle;
+            padding: 0 25px 0 25px;
+            background: #ffffff;
+        }
+
+        .message {
+            color: #585858;
+            font-size: 20px;
+        }
+
+        .action-wrapper td {
+            background: #ffffff;
+            width: 100%;
+            height: 200px !important;
+            vertical-align: middle;
+        }
+
+        .action-wrapper table {
+            background: #ffffff;
+            width: 100%;
+            height: 200px !important;
+        }
+
+        .secure-code-wrapper {
+            width: 299px !important;
+            text-align: center;
+            padding: 0 10px 0 10px !important;
+        }
+
+        .secure-code-label {
+            max-width: 250px !important;
+            font-size: 20px;
+            color: #585858;
+        }
+
+        .secure-code {
+            color: #1d9fd9;
+            font-size: 40px;
+            max-width: 250px !important;
+        }
+
+        .login-wrapper {
+            width: 300px !important;
+            text-align: center;
+            padding: 0 10px 0 10px !important;
+        }
+
+        .login-label {
+            color: #585858;
+            font-size: 20px;
+        }
+
+        .login-button {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #1d9fd9;
+            border: 2px solid #1d9fd9;
+            line-height: 2;
+            text-align: center;
+            cursor: pointer;
+            display: inline-block;
+            border-radius: 5px;
+            font-size: 20px;
+            -moz-border-radius: 5px;
+            padding: 0px 20px 0px 20px;
+        }
+
+        .login-button-wrapper {
+            height: 64px !important;
+            padding-top: 12px !important;
+        }
+
+        .separator-wrapper {
+            width: 1px !important;
+        }
+
+        .separator {
+            background: #585858;
+            height: 180px !important;
+            width: 1px !important;
+        }
+
+        /* -------------------------------------
+            TYPOGRAPHY
+        ------------------------------------- */
+
+        h1, h2, h3 {
+            font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            color: #000;
+            margin: 40px 0 0;
+            line-height: 1.2;
+            font-weight: 400;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        h4 {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        p, ul, ol {
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        p li, ul li, ol li {
+            margin-left: 5px;
+            list-style-position: inside;
+        }
+
+        /* -------------------------------------
+            LINKS & BUTTONS
+        ------------------------------------- */
+
+        a {
+            color: #348eda;
+            text-decoration: underline;
+        }
+
+        /* -------------------------------------
+            RESPONSIVE AND MOBILE FRIENDLY STYLES
+        ------------------------------------- */
+
+        @media only screen and (max-width: 640px) {
+            h1, h2, h3, h4 {
+                font-weight: 600 !important;
+                margin: 20px 0 5px !important;
+            }
+
+            h1 {
+                font-size: 22px !important;
+            }
+
+            h2 {
+                font-size: 18px !important;
+            }
+
+            h3 {
+                font-size: 16px !important;
+            }
+
+            .container {
+                width: 100% !important;
+            }
+
+            .content {
+                padding: 10px !important;
+            }
+
+        }
+
+        /*# sourceMappingURL=styles.css.map */
+    </style>
+</head>
+
+<body itemscope itemtype="http://schema.org/EmailMessage">
+
+<table class="body-wrap">
+    <tr>
+        <td></td>
+        <td class="container" width="600">
+            <div class="content">
+                <table width="100%" cellpadding="0" cellspacing="0" itemprop="action" itemscope
+                       itemtype="http://schema.org/ConfirmAction">
+                    <tr>
+                        <td>
+                            <meta itemprop="name" content="Login"/>
+                            <table width="100%" cellpadding="0" cellspacing="0">
+
+                                <tr>
+                                    <td class="header">
+                                        <img src="cid:shuttle-authorization-mail-header.png">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="message-wrapper">
+                                        <p class="message">
+                                            This is the activation e-mail for your Shuttle.
+                                            If you are viewing this on your phone, click below to login automatically.
+                                            If you are viewing this on a different device or a computer, please retype
+                                            the code in Shuttle.
+                                        </p>
+                                        <p class="message">
+                                            Happy tapping!
+                                        </p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="action-wrapper">
+                                        <table width="100%" cellpadding="0" cellspacing="0" class="action-wrapper">
+                                            <tr>
+                                                <td class="secure-code-wrapper">
+                                                    <p class="secure-code-label">
+                                                        Retype this code
+                                                    </p>
+                                                    <p class="secure-code">
+                                                        $SECURE_CODE
+                                                    </p>
+                                                </td>
+                                                <td class="separator-wrapper">
+                                                    <div class="separator"></div>
+                                                </td>
+                                                <td class="login-wrapper"
+                                                    itemprop="handler"
+                                                    itemscope
+                                                    itemtype="http://schema.org/HttpActionHandler">
+                                                    <p class="login-label">
+                                                        Login automatically
+                                                    </p>
+                                                    <p class="login-button-wrapper">
+                                                        <a href="$login_url"
+                                                           class="login-button"
+                                                           itemprop="url">
+                                                            Log in
+                                                        </a>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+</body>
+</html>

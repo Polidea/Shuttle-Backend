@@ -1,0 +1,31 @@
+spring.profiles.include: embeddedPostgres
+
+shuttle:
+  host: "http://localhost:${server.port}"
+  app-id:
+    ios: "com.polidea.shuttle"
+    android: "com.polidea.shuttle"
+  mailgun:
+    domain: "any-mailgun-domain"
+    key: "any-mailgun-key"
+  fcm:
+    url: "any-fcm-url"
+    key: "any-fcm-key"
+  should-send-notification-of-new-user: false
+  assets:
+    avatars.default:
+      - "not-defined-1"
+      - "not-defined-2"
+      - "not-defined-3"
+      - "not-defined-4"
+      - "not-defined-5"
+      - "not-defined-6"
+      - "not-defined-7"
+      - "not-defined-8"
+      - "not-defined-9"
+
+aws.s3:
+  region: "any-aws-s3-region"
+  bucket-name: "any-aws-s3-bucket"
+  access-key: "any-aws-s3-access-key"
+  secret-access-key: "any-aws-s3-secret-access-key"
