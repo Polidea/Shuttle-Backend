@@ -1,0 +1,42 @@
+#
+# IntelliJ IDEA configuration
+#
+.idea/*
+!.idea/codeStyleSettings.xml
+!.idea/fileTemplates/
+!.idea/inspectionProfiles/
+!.idea/sqldialects.xml
+.idea_modules/
+*.iws
+out
+*.iml
+
+/*.log
+
+#
+# Gradle
+#
+.gradle
+/build/
+gradle-app.setting
+.gradletasknamecache
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+#
+# QR Codes generated automatically for each mobile app release
+#
+/android-qr-code*.png
+/ios-qr-code*.png
+
+#
+# Apple OS X
+#
+.DS_Store
+
+#
+# Other tmeporary files
+#
+/tmp
