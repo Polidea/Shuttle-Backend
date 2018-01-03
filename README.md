@@ -1,4 +1,10 @@
 # Shuttle Backend
+##About Shuttle
+Shuttle makes easy, secure and fast mobile apps distribution possible. It was created by Polidea as an internal tool, 
+which allows delivering iOS and Android mobile applications to stakeholders from the very beginning of the cooperation 
+with the app creators. To try out our solution, simply use our code and if you need frontend and mobile app—contact 
+us directly! We’ll be more than happy to help, integrate the solution or create a brand new frontend. 
+More at [www.polidea.com](www.polidea.com).
 
 ## Prerequisites
 
