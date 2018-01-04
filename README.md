@@ -30,6 +30,7 @@ There are following profiles meant to be used:
 Run app in development environment inside Docker containers with real database and proxy server:
 
 * `docker-compose up --build`: build and run Docker images
+* access the app here [http://localhost:9090](http://localhost:9090)
 
 ## IntelliJ IDEA configuration
 
